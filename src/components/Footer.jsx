@@ -4,15 +4,15 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-6">
-            <h5>Academia de Baile "Sergio el bailador"</h5>
-            <p className="mb-0">Formando bailarines profecionales </p>
+            <h5>academia de baile "sergio el bailador"</h5>
+            <p className="mb-0">formando bailarines profecionales </p>
           </div>
           <div className="col-md-6 text-md-end">
             <p className="mb-0">
-              <strong>Contacto:</strong> 
+              <strong>contacto:</strong> 
               inf: alvaro.ff@gmail.com
             </p>
-            <p> Todos los derechos reservados</p>
+            <p>derechos reservados</p>
           </div>
         </div>
       </div>

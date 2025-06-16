@@ -61,7 +61,7 @@ const contenido = () => {
 
   return (
     <div className="my-4">
-      <h2 className="mb-4 text-center">danzas de las Regiones de Bolivia</h2>
+      <h2 className="mb-4 text-center">danzas de las regiones de Bolivia</h2>
       <Accordion defaultActiveKey="0" flush>
         {danceRegions.map((region, index) => (
           <Accordion.Item eventKey={index.toString()} key={index}>

@@ -38,7 +38,7 @@ const CoursesContent = () => {
 
   return (
     <div className="my-4">
-      <h2 className="mb-4 text-center">oferta de Cursos</h2>
+      <h2 className="mb-4 text-center">oferta de cursos</h2>
       
       <Row xs={1} md={3} className="g-4">
         {courses.map((course) => (
@@ -51,7 +51,7 @@ const CoursesContent = () => {
               </Card.Body>
               <Card.Footer className="bg-white border-0">
                 <Button 
-                  variant="primary" 
+                  variant="success" 
                   onClick={() => handleShowModal(course)}
                 >
                   ver Precio
@@ -72,7 +72,7 @@ const CoursesContent = () => {
               <h4>{selectedCourse.title}</h4>
               <p className="lead">{selectedCourse.description}</p>
               <div className="bg-light p-3 rounded">
-                <h5 className="text-success">Precio: {selectedCourse.price}</h5>
+                <h5 className="text-success">precio: {selectedCourse.price}</h5>
                 <small className="text-muted"> todo listo para aprender</small>
               </div>
             </>
@@ -80,10 +80,10 @@ const CoursesContent = () => {
         </Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleCloseModal}>
-            Cerrar
+            cerrar
           </Button>
           <Button variant="success" onClick={handleCloseModal}>
-            Inscribirse
+            inscribirse
           </Button>
         </Modal.Footer>
       </Modal>
